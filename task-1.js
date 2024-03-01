@@ -13,6 +13,21 @@ function minHeight(numbers) {
 const min = minHeight(heights);
 // console.log('minimum number:',min);
 
+// task-2
+// const heights2 = ['rahim', 'sahara', 'robin', 'rafi', 'rox', 'sa', 'rashed'];
+
+// function friends(names) {
+//     let name = names[0];
+//     for(const friend of names) {
+//         if(friend < names[0]) {
+//             name = friend;
+//         }
+//     }
+//     console.log(name);
+// }
+// friends(heights2);
+
+
 // task-3
 function calculateElectronicsBudget(laptop, tablet, mobile) {
     const total = laptop + tablet + mobile;
@@ -63,4 +78,4 @@ function salary(employees) {
     return salarySum;
 }
 const employeesBill = salary(employees);
-console.log('Monthly_Employees_Bill:',employeesBill);
+// console.log('Monthly_Employees_Bill:',employeesBill);
